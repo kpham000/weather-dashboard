@@ -1,0 +1,65 @@
+.banner {
+    position: relative;
+    margin-top: 0;
+    height: 90px;
+    background: rgb(107,51,185);
+    background: radial-gradient(circle, rgba(107,51,185,1) 0%, rgba(236,185,58,1) 100%);
+}
+
+main {
+    display: flex !important;
+    background-color: #A76F0E;
+}
+
+.search-box {
+    width: 30%;
+    margin-right: 15px;
+}
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    top: 20px;
+    left: 550px;
+}
+
+#fetch-button {
+    background: lightblue;
+
+}
+
+.searchQuestion {
+    font-weight: 600;
+    font-size: 35px;
+    color: #F0C386;
+    margin-top: 20px;
+}
+
+#history button {
+    margin: 0 10px;
+}
+
+.icon {
+    width: 45px;
+}
+
+.circle {
+    margin: 0 4px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#future-weather {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#future-weather>div {
+    margin: 10px 10px 0 0;
+}
